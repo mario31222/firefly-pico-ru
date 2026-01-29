@@ -8,8 +8,10 @@ export const languageCode = {
   brazilian_portuguese: 'pt-BR',
   german_german: 'de-DE',
   swiss_german: 'de-CH',
-  french: 'fr-FR'
+  french: 'fr-FR',
+  russian: 'ru'
 }
+
 
 export const supportedLanguages = [
   {
