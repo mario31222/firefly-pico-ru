@@ -502,7 +502,8 @@ export const avatarListIcons = [
 
 export const flags = {
   ro: 'svgo-flags-ro',
-  en: 'svgo-flags-en'
+  en: 'svgo-flags-en',
+  ru: 'svgo-flags-ru'
 }
 
 export const custom = {
