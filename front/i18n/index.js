@@ -12,7 +12,6 @@ export const languageCode = {
   russian: 'ru'
 }
 
-
 export const supportedLanguages = [
   {
     code: languageCode.english,
@@ -65,6 +64,7 @@ export const supportedLanguages = [
   {
   code: languageCode.russian,
   file: 'ru.json',
-  displayName: 'Русский'
+    displayName: 'Русский',
+    icon: 'svgo-flags-ru',
   },
 ]
