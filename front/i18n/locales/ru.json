@@ -5,23 +5,23 @@
   "add": "Добавить",
   "search": "Поиск",
   "success": "Успешно",
-  "search_placeholder": "Поиск…",
+  "search_placeholder": "Поиск...",
   "clone": "Клонировать",
-  "not_set": "Не задано",
-  "loading": "Загрузка…",
+  "not_set": "Не установлено",
+  "loading": "Загрузка...",
   "items": "элементы",
-  "name": "Название",
+  "name": "Имя",
   "code": "Код",
   "symbol": "Символ",
   "description": "Описание",
   "notes": "Заметки",
-  "ok": "ОК",
+  "ok": "OK",
   "copy": "Копировать",
   "paste": "Вставить",
   "copied": "Скопировано",
   "pasted": "Вставлено",
   "status": "Статус",
-  "transaction_type": "Тип операции",
+  "transaction_type": "Тип транзакции",
   "without": "Без",
   "template": "Шаблон",
   "templates": "Шаблоны",
@@ -30,86 +30,86 @@
   "category_select": "Выберите категорию",
   "tag": "Тег",
   "tags": "Теги",
-  "todo": "Задача",
+  "todo": "К исполнению",
   "tags_select": "Выберите теги",
   "budget": "Бюджет",
   "budgets": "Бюджеты",
   "budget_select": "Выберите бюджет",
   "attachment": "Вложение",
   "attachments": "Вложения",
-  "account": "Счёт",
+  "account": "Счет",
   "accounts": "Счета",
   "total": "Итого",
-  "select_is_empty": "Ничего не выбрано…",
-  "active": "Активно",
+  "select_is_empty": "Ничего не выбрано...",
+  "active": "Активен",
   "calendar": "Календарь",
   "date": "Дата",
   "date_after": "Дата после",
   "date_before": "Дата до",
-  "sub_month": "−1 месяц",
-  "this_month": "Текущий месяц",
+  "sub_month": "-1 месяц",
+  "this_month": "Этот месяц",
   "add_month": "+1 месяц",
-  "sub_day": "−1 день",
+  "sub_day": "-1 день",
   "today": "Сегодня",
   "add_day": "+1 день",
   "day_of_week": "День недели",
   "amount": "Сумма",
-  "amount_min": "Минимальная сумма",
-  "amount_max": "Максимальная сумма",
+  "amount_min": "Мин. сумма",
+  "amount_max": "Макс. сумма",
   "toolbar": {
     "home": "Главная",
-    "transactions": "Операции",
+    "transactions": "Транзакции",
     "extras": "Дополнительно",
     "settings": "Настройки"
   },
   "filters": {
     "clear": "Очистить",
-    "applied_filters": "Применённые фильтры",
+    "applied_filters": "Примененные фильтры",
     "apply_filters": "Применить фильтры",
-    "transaction_filters": "Фильтры операций"
+    "transaction_filters": "Фильтры транзакций"
   },
   "transaction": {
-    "title_list": "Список операций",
-    "split_transaction": "Разделить операцию",
+    "title_list": "Список транзакций",
+    "split_transaction": "Разделить транзакцию",
     "assistant": "Ассистент",
-    "assistant_format": "Формат: [шаблон / тег?] [сумма?] [описание?]",
-    "assistant_tutorial_title": "Ассистент операций",
-    "assistant_tutorial_body": "<p>Быстро создавайте операции, вводя текст вручную или используя диктовку.</p><p>Ожидаемый формат:<br><b>[поиск] [сумма?] [описание?] [задача?]</b></p><p>1. <b>Поиск</b> выполняется по названиям тегов, категорий и шаблонов операций. Поддерживается частичное совпадение и неточный ввод.</p><p>2. <b>Сумма</b> поддерживает математические выражения. Числа, разделённые пробелом, автоматически суммируются.</p><p>3. <b>Описание</b> необязательно и может переопределять название тега.</p><p>4. <b>Задача</b> добавляет пользовательский тег «todo» путём добавления специальной подстроки (по умолчанию «!!»).</p><p><b>Примеры</b><br><code>electricity 23<br>elc 12*2+33<br>elc 12+2*3 описание<br>elc 25 !!<br>swim</code></p><p>5. В правом верхнем углу можно выбрать <b>валюту</b>. В этом случае сумма будет интерпретироваться в выбранной валюте и автоматически конвертироваться в валюту счёта.</p>",
+    "assistant_format": "Формат = [шаблон / тег?] [сумма?] [описание?]",
+    "assistant_tutorial_title": "Ассистент транзакций",
+    "assistant_tutorial_body": "<p>Легко создавайте транзакции, вводя текст здесь (или используя голосовой ввод телефона).</p>\n<p>Ожидаемый формат:<br> <b>[поиск]&nbsp; [сумма?]&nbsp; [описание?]&nbsp; [todo?]</b></p>\n<p>1. <b>Поиск</b> ищет в названиях ваших тегов, категорий и шаблонов транзакций. Поддерживается ввод части названия и даже небольшие опечатки.<br><code> элек => электричество</code></p>\n<p>2. <b>Сумма</b> поддерживает математические выражения. Числа, разделенные пробелом, складываются автоматически.</p>\n<p>3. <b>Описание</b> необязательно. Используйте его, чтобы перезаписать стандартное имя тега.</p>\n<p>4. <b>Todo</b> позволяет легко добавить пользовательский тег «к исполнению», добавив специальную строку (по умолчанию «!!»). Это можно изменить в «Настройках».</p>\n\n<p><b>Примеры</b><br>\n\"электричество\" = тег<br>\n\"плавание\" = шаблон <br><br>\n\n<code>\nэлектричество 23<br>\nэлек 12*2+33<br>\nэлек 12+2*3 описание пользователя<br>\nэлек 25 !!<br>\nплавание<br>\n\n</code>\n</p>\n\n<p>5. В правом верхнем углу есть выбор <b>валюты</b>, которую можно изменить на лету или установить по умолчанию в «Настройки» -> «Ассистент». При использовании это будет трактовать <b>сумму</b> в этой валюте и конвертировать конечное значение в валюту вашего счета. Это очень удобно в поездках за границу.</p>",
     "type": {
       "expense": "Расход",
       "income": "Доход",
       "transfer": "Перевод"
     },
-    "source_account": "Счёт списания",
-    "destination_account": "Счёт зачисления",
+    "source_account": "Счет списания",
+    "destination_account": "Счет зачисления",
     "make_template": "Создать шаблон",
     "configure_fields": "Настроить поля",
-    "title_clone_transaction": "Клонировать операцию",
-    "title_edit_transaction": "Редактировать операцию",
-    "title_add_transaction": "Добавить операцию"
+    "title_clone_transaction": "Клонировать транзакцию",
+    "title_edit_transaction": "Изменить транзакцию",
+    "title_add_transaction": "Добавить транзакцию"
   },
   "settings": {
     "settings_title": "Настройки",
     "general": "Общие",
-    "required_field": "Обязательное поле",
+    "required_field": "Это поле обязательно",
     "settings_saved": "Настройки сохранены",
-    "setup_entry": "Первичная настройка",
+    "setup_entry": "Конфигурация",
     "setup": {
-      "title": "Настройка",
-      "pico_backend_url": "URL Pico‑бэкенда",
-      "sync_settings_via_token": "Синхронизировать настройки между устройствами по токену",
-      "days_between_sync": "Дней между полной синхронизацией «Дополнений»",
+      "title": "Конфигурация",
+      "pico_backend_url": "URL бэкенда Pico",
+      "sync_settings_via_token": "Синхронизировать настройки через токен",
+      "days_between_sync": "Дней между полной синхронизацией «Дополнительно»",
       "loaded_data_stats": "Статистика загруженных данных",
-      "account": "Счета",
+      "account": "Счет",
       "categories": "Категории",
       "tags": "Теги",
       "templates": "Шаблоны",
       "budgets": "Бюджеты",
       "last_sync": "Последняя синхронизация",
-      "verifying": "Проверка…",
-      "invalid_endpoint": "Указанный адрес некорректен.",
-      "invalid_token": "Указанный токен некорректен или истёк.",
-      "fetching": "Загрузка…"
+      "verifying": "Проверка...",
+      "invalid_endpoint": "Указан неверный адрес.",
+      "invalid_token": "Токен неверный или просрочен.",
+      "fetching": "Получение данных..."
     },
     "ui_entry": "Интерфейс",
     "ui": {
@@ -117,99 +117,257 @@
       "title": "Настройки интерфейса",
       "show_animations": "Показывать анимации",
       "reset_forms_after_creation": "Очищать формы после создания",
-      "transaction_list": "Список операций",
-      "select_hero_icons": "Выберите отображаемые иконки",
+      "transaction_list": "Список транзакций",
+      "select_hero_icons": "Выберите иконки для отображения",
       "hero_icons": "Иконки",
-      "right_side_card": "(правая карточка в списке)",
-      "dark": "Тёмная",
+      "right_side_card": "(Карточка с правой стороны в списке)",
+      "dark": "Темная",
       "light": "Светлая",
       "pages": {
-        "new_transacation": "Новая операция",
-        "transacation_list": "Список операций",
-        "dashboard": "Панель"
+        "new_transacation": "Новая транзакция",
+        "transacation_list": "Список транзакций",
+        "dashboard": "Дашборд"
       }
     },
     "assistant_entry": "Ассистент",
     "assistant": {
       "title": "Настройки ассистента",
-      "substring_todo_tag": "Подстрока для добавления тега задачи",
-      "currency": "Сумма будет интерпретироваться как иностранная валюта"
+      "substring_todo_tag": "Строка, которая добавляет тег «todo»",
+      "currency": "Сумма в тексте ассистента будет интерпретироваться как иностранная валюта этого типа"
     },
     "formatting_entry": "Форматирование",
     "formatting": {
       "title": "Настройки форматирования",
       "numbers_format": "Формат чисел",
-      "select_numbers_format": "Выберите формат чисел",
+      "select_numbers_format": "Выберите предпочтительный формат чисел",
       "date_format": "Формат даты",
       "select_date_format": "Выберите формат даты",
       "first_day_of_month": "Первый день месяца",
       "select_first_day_of_month": "Выберите первый день месяца",
-      "casing": "Регистр",
-      "force_transaction_description_lowercase": "Принудительно использовать нижний регистр для описаний",
-      "force_account_name_lowercase": "Принудительно использовать нижний регистр для счетов",
-      "force_category_name_lowercase": "Принудительно использовать нижний регистр для категорий",
-      "force_tag_name_lowercase": "Принудительно использовать нижний регистр для тегов",
-      "strip_accents": "Удалять диакритические знаки"
+      "casing": "Регистр текста",
+      "force_transaction_description_lowercase": "Принудительно строчные в описании транзакции",
+      "force_account_name_lowercase": "Принудительно строчные в названии счета",
+      "force_category_name_lowercase": "Принудительно строчные в названии категории",
+      "force_tag_name_lowercase": "Принудительно строчные в названии тега",
+      "strip_accents": "Удалять диакритические знаки (акценты)"
     },
-    "transactions_entry": "Операции",
+    "transactions_entry": "Транзакции",
     "transactions": {
-      "title": "Настройки операций",
-      "default_form_values_entry": "Значения по умолчанию",
+      "title": "Настройки транзакций",
+      "default_form_values_entry": " Значения формы по умолчанию",
       "default_list_filters_entry": "Фильтры списка по умолчанию",
-      "amount_increment_buttons": "Кнопки изменения суммы",
+      "amount_increment_buttons": "Шаг изменения суммы",
       "configure_form_fields": "Настроить поля формы",
       "configure_list_fields": "Настроить поля списка",
       "watchers": "Наблюдатели",
-      "watchers_info": "Применяется только при создании операции",
-      "copy_tag_to_description": "Копировать тег в описание",
-      "copy_tag_to_category": "Копировать тег в категорию",
-      "copy_category_to_description": "Копировать категорию в описание",
+      "watchers_info": "Применяется только при создании транзакции",
+      "copy_tag_to_description": "При выборе Тега копировать его в Описание",
+      "copy_tag_to_category": "При выборе Тега копировать его в Категорию",
+      "copy_category_to_description": "При выборе Категории копировать ее в Описание",
       "quick_amounts": {
-        "title": "Быстрые суммы",
+        "title": "Быстрые суммы транзакций",
         "value": "Значение"
       },
       "list_fields": {
-        "title": "Поля списка",
+        "title": "Настройка полей списка",
         "fields": "Поля",
-        "select_hero_icons": "Выберите иконки",
+        "select_hero_icons": "Выберите иконки для отображения",
         "hero_icons": "Иконки",
-        "right_side_card": "(правая карточка в списке)"
+        "right_side_card": "(Карточка с правой стороны в списке)"
       },
       "form_fields": {
-        "title": "Поля формы",
+        "title": "Настройка полей формы",
         "always_show_foreign_currency": "Всегда показывать поле иностранной валюты"
       },
       "default_list_filters": {
-        "title": "Фильтры списка по умолчанию",
-        "info": "Рекомендуется использовать только при большом количестве операций."
+        "title": "Фильтры списка транзакций по умолчанию",
+        "info": "Рекомендуется использовать эти фильтры только при большом количестве транзакций, вызывающем медленную загрузку списка. Например: показывать только транзакции с начала текущего года."
       },
       "default_form_values": {
-        "title": "Значения по умолчанию",
-        "default_source_account": "Счёт списания по умолчанию",
-        "default_destination_account": "Счёт зачисления по умолчанию",
+        "title": "Значения по умолчанию для новых транзакций",
+        "default_source_account": "Счет списания по умолчанию",
+        "default_destination_account": "Счет зачисления по умолчанию",
         "default_category": "Категория по умолчанию",
-        "default_tags": "Теги по умолчанию",
-        "auto_tags": "Автоматические теги",
+        "default_tags": "Теги по умолчанию (только предустановленные)",
+        "auto_tags": "Авто-теги (добавляются после создания)",
         "foreign_currency": "Иностранная валюта для расходов"
       }
     },
     "about_entry": "О программе",
     "version": "Версия",
     "new_version_available": "Доступна новая версия",
-    "dashboard_entry": "Панель"
+    "dashboard_entry": "Дашборд",
+    "dashboard": {
+      "title": "Настройки дашборда",
+      "cards_order": "Порядок карточек дашборда",
+      "config": "Конфигурация",
+      "show_empty_accounts": "Показывать счета с нулевым балансом",
+      "show_decimal_places": "Показывать десятичные знаки",
+      "transaction_exclusion": "Исключение транзакций",
+      "cards": {
+        "accounts_summary": "Сводка по счетам",
+        "expenses_this_week": "Расходы за неделю",
+        "transactions_summary": "Сводка транзакций",
+        "expenses_by_tag": "Расходы по тегам",
+        "expenses_by_category": "Расходы по категориям",
+        "transfers_by_tag": "Переводы по тегам",
+        "transfers_by_category": "Переводы по категориям",
+        "todo_transactions": "Транзакции к исполнению"
+      }
+    },
+    "token": {
+      "label": "Личный токен доступа",
+      "placeholder": "Личный токен"
+    }
   },
-  "dashboard": {
-    "title": "Панель",
-    "controls": "Управление",
-    "account_total": "Общий баланс",
-    "expenses_week": "Расходы за неделю",
-    "configure_cards": "Настроить карточки"
+  "about": {
+    "title": "О программе",
+    "info": "Инфо",
+    "items_list_deleted": "- Элементы в списке можно удалить свайпом в сторону",
+    "list_updated": "- Список можно обновить, потянув вниз",
+    "popups_dismissed": "- Всплывающие снизу окна можно закрыть свайпом вниз",
+    "dashboard_clickable": "- На дашборде большинство иконок и графиков кликабельны.",
+    "credits": "Благодарности",
+    "developed_by": "- Разработано Mihai Cioraneanu - <a href=\"{url}\">GitHub</a>",
+    "using_laravel_nuxt": "- Использует <a href=\"https://laravel.com/\" target=\"_blank\">Laravel</a> и <a href=\"https://nuxt.com/\" target=\"_blank\">Nuxt</a>",
+    "consuming_firefly": "- Взаимодействует с API <a href=\"https://www.firefly-iii.org\" target=\"_blank\">Firefly III</a>",
+    "ui_theme_vant": "- Интерфейс базируется на <a href=\"https://vant-ui.github.io\" target=\"_blank\">Vant</a>",
+    "exchange_rate_api": "- Курсы валют предоставлены <a href=\"https://www.exchangerate-api.com\">Exchange Rate API</a>",
+    "iconpacks_tabler": "- Иконки: <a href=\"https://tabler.io/icons\" target=\"_blank\">Tabler Icons</a>",
+    "iconpacks_fluent": "- Иконки: <a href=\"https://github.com/microsoft/fluentui\" target=\"_blank\">Fluent UI System Icons</a>",
+    "iconpacks_circle_avatar": "- Иконки: <a href=\"https://www.svgrepo.com/author/Laura%20Reen\" target=\"_blank\">Circle Avatar Vectors by Laura Reen</a>",
+    "iconpacks_svg_repo": "- Иконки: <a href=\"https://www.svgrepo.com/\" target=\"_blank\">SVG Repo</a>",
+    "iconpacks_freepik": "- Иконки: <a href=\"https://www.freepik.com/\" target=\"_blank\">Freepik</a>",
+    "illustrations_undraw": "- Иллюстрации: <a href=\"https://undraw.co\" target=\"_blank\">unDraw</a>"
+  },
+  "page_select": {
+    "label": "Стартовая страница",
+    "title": "Выберите стартовую страницу"
   },
   "language_select": {
-    "title": "Выбор языка",
+    "title": "Выберите язык",
     "label": "Язык"
+  },
+  "day_select": {
+    "label": "Первый день недели",
+    "title": "Выберите первый день недели"
+  },
+  "account_select": {
+    "title": "Выберите счет",
+    "asset_accounts": "Активные счета",
+    "expense_accounts": "Счета расходов",
+    "income_accounts": "Счета доходов",
+    "liability_accounts": "Счета пассивов (обязательства)",
+    "no_accounts": "Нет счетов"
+  },
+  "currency_select": {
+    "title": "Выберите валюту"
   },
   "validation": {
     "required": "Поле обязательно для заполнения"
+  },
+  "primary": "Основной",
+  "classification": "Классификация",
+  "extra": "Дополнительно",
+  "exchange_rates": "Курсы валют",
+  "currency": "Валюта",
+  "currencies": "Валюты",
+  "show_transactions": "Показать транзакции",
+  "icon": "Иконка",
+  "icon_select": "Выберите иконку",
+  "icon_empty": "Без иконки",
+  "list": "Список",
+  "percentage": "Процент",
+  "repeater_no_values": "Значения не установлены. Используйте кнопку «Добавить».",
+  "account_page": {
+    "title_add": "Добавить счет",
+    "title_edit": "Изменить счет",
+    "adjust_balance": "Корректировка баланса",
+    "account_type": "Тип",
+    "account_type_asset": "Актив",
+    "account_type_revenue": "Доход",
+    "account_type_expense": "Расход",
+    "account_type_liability": "Обязательство",
+    "account_type_cash": "Наличные",
+    "account_role": "Роль",
+    "account_role_default": "Стандартный",
+    "account_role_shared": "Общий",
+    "account_role_savings": "Сберегательный",
+    "account_role_credit_card": "Кредитная карта",
+    "liability_type": "Тип обязательства",
+    "liability_direction": "Направление обязательства",
+    "include_net_worth": "Включен в чистую стоимость",
+    "visible_on_dashboard": "Виден на дашборде",
+    "balance": "Баланс"
+  },
+  "transaction_template_page": {
+    "title_add": "Добавить шаблон",
+    "title_edit": "Изменить шаблон",
+    "extra_names": "Доп. имена (для поиска ассистентом):"
+  },
+  "tag_page": {
+    "title_add": "Добавить тег",
+    "title_edit": "Изменить тег",
+    "parent_tag": "Родительский тег",
+    "mark_as_todo": "Отметить «к исполнению»",
+    "end_date": "Дата окончания"
+  },
+  "category_page": {
+    "title_add": "Добавить категорию",
+    "title_edit": "Изменить категорию"
+  },
+  "currency_page": {
+    "title_add": "Добавить валюту",
+    "title_edit": "Изменить валюту",
+    "decimal_places": "Десятичные знаки"
+  },
+  "budget_page": {
+    "title_add": "Добавить бюджет",
+    "title_edit": "Изменить бюджет",
+    "spent": "Потрачено",
+    "percent": "Процент",
+    "interval": "Интервал",
+    "type": "Тип бюджета",
+    "period": "Период бюджета"
+  },
+  "exchange_rate_page": {
+    "relative_to_usd": "Относительно USD"
+  },
+  "dashboard": {
+    "title": "Дашборд",
+    "controls": "Управление",
+    "account_total": "Общий баланс",
+    "expenses_week": "Расходы за неделю",
+    "transactions_summary": {
+      "title": "Сводка транзакций",
+      "surplus": "Остаток",
+      "days_remaining": "Дней осталось",
+      "savings_summary": "Сводка сбережений"
+    },
+    "budget": {
+      "spent": "Потрачено",
+      "budgeted": "Заложено",
+      "remaining": "Осталось"
+    },
+    "expenses_by_tags": {
+      "title": "Расходы по тегам",
+      "all_tags": "Все теги",
+      "one_root_tag": "Основной тег"
+    },
+    "transfers_by_tags": {
+      "title": "Переводы по тегам",
+      "all_tags": "Все теги",
+      "one_root_tag": "Основной тег"
+    },
+    "expenses_by_categories": "Расходы по категориям",
+    "transfers_by_categories": "Переводы по категориям",
+    "configure_cards": "Настроить карточки"
+  },
+  "profile_page": {
+    "title": "Список профилей",
+    "title_add": "Добавить профиль",
+    "info": "Быстрое переключение между вашими настройками",
+    "title_edit": "Изменить профиль",
+    "tutorial_body": "<p><b>Профиль</b> — это набор всех конфигураций, находящихся на страницах <code>Настроек</code>.</p><br><p>Вы можете иметь несколько профилей, но активным может быть только один. Переключайтесь между ними <i>нажатием</i>, а редактируйте через <i>двойное</i> или <i>долгое нажатие</i>.</p><br><p>Пример использования: разные значения по умолчанию для <b>формы транзакции</b> — один профиль для повседневных нужд, другой для отпуска. В профиле «Отпуск» может быть другой счет списания или автоматически применяемый тег «Отпуск Август 2025». Это позволит легко увидеть общие расходы по данному тегу.</p>"
   }
 }
